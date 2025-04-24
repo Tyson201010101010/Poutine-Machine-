@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Poutine Machine</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1; /* Light gray background */
+        }
+        header {
+            background-color: #D52B1E; /* Red - Canadian flag red */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            background-color: #8B4513; /* Brown */
+            padding: 20px;
+            margin: 20px 0;
+            color: white;
+        }
+        footer {
+            background-color: #707070; /* Gray footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .cta-button {
+            background-color: #D52B1E; /* Red */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .cta-button:hover {
+            background-color: #A61D12; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/800px-Flag_of_Canada.svg.png" alt="Canadian Flag" class="logo">
+        <h1>The Poutine Machine</h1>
+    </header>
+    
+    <main>
+        <section class="content">
+            <h2>Welcome to The Poutine Machine!</h2>
+            <p>We serve the best poutine in town – made with fresh ingredients and served hot and tasty!</p>
+            <a href="#order" class="cta-button">Order Now</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 The Poutine Machine - All rights reserved</p>
+    </footer>
+</body>
+</html>
